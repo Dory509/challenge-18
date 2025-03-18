@@ -1,4 +1,6 @@
 const User = require('../models/User');
+const userController = require('./src/controllers/userController');
+console.log(userController);
 
 // Get all users
 const getAllUsers = async (req, res) => {
@@ -84,6 +86,7 @@ const removeFriend = async (req, res) => {
         res.status(500).json(err);
     }
 };
+
 
 module.exports = {
     getAllUsers,
