@@ -1,6 +1,6 @@
 const User = require('../models/User');
-const userController = require('./src/controllers/userController');
-console.log(userController);
+// const userController = require('./src/controllers/userController');
+// console.log(userController);
 
 // Get all users
 const getAllUsers = async (req, res) => {
